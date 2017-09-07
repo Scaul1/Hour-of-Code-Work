@@ -1,0 +1,27 @@
+//PROJECT 3: SELF PORTRAIT
+
+fill(166, 118, 55); // ponytail
+triangle(107, 49, 130, 100, 36, 208);
+rect(101, 21, 195, 156, 10);
+
+noStroke(); //neck
+fill(232, 201, 151);
+rect(163, 333, 76, 46);
+
+fill(232, 201, 151); // face 
+ellipse(200, 200, 197, 285);
+
+fill(255, 255, 255); //eyes
+ellipse(169, 142, 35, 48); 
+ellipse(226, 142, 35, 48);
+fill(26, 6, 6);
+ellipse(169, 148, 26, 29);
+ellipse(226, 148, 26, 29);
+
+noFill(); // mouth
+strokeWeight(6);
+stroke(255, 0, 0);
+arc(201, 245, 78, 111, 34, 144);
+
+stroke(33, 8, 8); //nose
+ellipse(200, 231, 21, 34); 
