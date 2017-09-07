@@ -1,0 +1,38 @@
+//PROJECT: SUPER SNOWMAN
+
+background(70, 153, 189); //sky
+
+fill(242, 255, 0); //colouring the sun
+strokeWeight(8);
+stroke(255, 145, 0);
+ellipse(314, 44, 69, 69); //sun
+
+strokeWeight(4); //colouring the snowman
+stroke(10, 5, 5);
+fill(255, 255, 255);
+ellipse(200, 300, 150, 150); // snowman body
+ellipse(200, 200, 100, 100);
+ellipse(200, 120, 75, 75);
+
+arc(201, 131, 51, 34, 36, 138); //smile
+
+fill(58, 187, 201); //eye colour
+ellipse(185, 110, 20, 20); //eyes
+ellipse(213, 110, 20, 20); 
+
+fill(255, 145, 0); //nose colour
+triangle(185, 125, 210, 125, 190, 140); //nose
+
+fill(13, 2, 2); //hat colour
+ellipse(199, 92, 132, 18); //hat
+rect(161, 38, 76, 51); 
+fill(255, 0, 0); //red stripe 
+rect(161, 69, 76, 10);
+
+line(150, 190, 52, 121); //arms
+line(248, 193, 313, 121);
+
+fill(20, 3, 3); //colouring buttons
+ellipse(200, 190, 10, 10); //buttons
+ellipse(200, 224, 10, 10);
+ellipse(200, 285, 10, 10);
