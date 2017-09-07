@@ -1,0 +1,66 @@
+//PROJECT 2: EASTER BUNNY
+
+background(106, 238, 245); //sky
+
+fill(145, 54, 173); //body colour
+ellipse(200, 180, 100, 108); //body shape
+
+fill(255, 0, 251); //inner belly
+ellipse(200, 180, 50, 64);
+
+fill(145, 54, 173); //head colour
+ellipse(200, 116, 64, 55); //head shape
+
+fill(255, 255, 255); //outer eye colour
+ellipse(188, 114, 12, 20); //outer eye
+fill(3, 0, 0); //inside eye colour
+ellipse(188, 117, 6, 6); //inside eye
+
+fill(255, 255, 255); //outer eye colour
+ellipse(207, 114, 12, 20); //outer eye
+fill(3, 0, 0); //inside eye colour
+ellipse(207, 117, 6, 6); //iside eye
+
+fill(240, 60, 180); //nose colour
+ellipse(198, 130, 6, 6); //nose
+
+fill(145, 54, 173);  //ears
+ellipse(182, 67, 24, 60);
+fill(255, 0, 251);
+ellipse(182, 67, 14, 50);
+fill(145, 54, 173);
+ellipse(215, 67, 24, 60);
+fill(255, 0, 251);
+ellipse(215, 67, 14, 50);
+
+noFill(); //basket handle
+rect(21, 106, 95, 65);
+
+fill(255, 106, 0); //eggs
+ellipse(35, 141, 20, 20);
+ellipse(64, 141, 20, 29);
+ellipse(94, 141, 20, 15);
+
+fill(242, 22, 55); //basket
+rect (21, 144, 96, 65);
+
+line(30, 210, 31, 145); //basket stripes
+line(43, 210, 43, 145);
+line(55, 210, 55, 145);
+line(70, 210, 71, 145);
+line(87, 210, 86, 145);
+line(104, 210, 103, 145);
+
+strokeWeight(8);
+stroke(145, 54, 173);
+line(163, 168, 66, 105); //arms
+line(235, 168, 302, 100);
+
+noStroke();
+fill(9, 255, 0); //ground
+rect(-5, 235, 418, 252);
+
+fill(145, 54, 173); //legs
+ellipse(160, 211, 40, 60);
+fill(145, 54, 173); 
+ellipse(240, 211, 40, 60);
